@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fcfcfc;
+}
+
+footer {
+    background: #27251f;
+    height: auto;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.social-media {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.social-media li {
+    margin: 0 10px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-media a i {
+    font-size: 1.8rem;
+    transition: color .4s ease;
+}
+
+.social-media a:hover i {
+    color: #007BB6;
+}
+
+.footer-box {
+    background: #27251f;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-box p {
+    font-size: 16px;
+    word-spacing: 0.5px;
+    text-transform: capitalize;
+}
+
+.logo img {
+    width: 160px;
+}
